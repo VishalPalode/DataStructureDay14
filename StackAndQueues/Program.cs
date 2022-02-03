@@ -55,6 +55,11 @@ namespace StackAndQueues
                         linkedListQueue.Enqueue(30);
                         linkedListQueue.Enqueue(70);
                         linkedListQueue.Display();
+                        Console.WriteLine("<---Dequeue from Queue---> \n");
+                        linkedListQueue.Dequeue();
+                        linkedListQueue.Display();
+                        Console.WriteLine("<---Copy element from Queue into Stack---> \n");
+                        linkedListQueue.CopyIntoStack();
                         break;
                     case 3:
                         CONTINUE = false;
