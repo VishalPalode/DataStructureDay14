@@ -76,7 +76,6 @@ namespace StackAndQueues
             }
             Console.WriteLine("All element Poped from Stack!");
         }
-
     }
     
 }
