@@ -39,6 +39,7 @@ namespace StackAndQueues
                         linkedListStack.Push(56);
                         linkedListStack.Display();
                         break;
+
                     case 2:
                         CONTINUE = false;
                         break;
