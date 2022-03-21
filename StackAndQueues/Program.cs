@@ -49,6 +49,7 @@ namespace StackAndQueues
                         linkedListStack.IsEmpty();
                         linkedListStack.Display();
                         break;
+
                     case 2:
                         Console.WriteLine("<---Creating A Queue---> \n");
                         linkedListQueue.Enqueue(56);
